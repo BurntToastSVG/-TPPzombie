@@ -1,0 +1,1493 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.20f1 (577897200b8b) revision 5732503'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16265 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/iankw/Desktop/CODE/Unity-Games/Multiplayer
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+52482
+Successfully changed project path to: C:/Users/iankw/Desktop/CODE/Unity-Games/Multiplayer
+C:/Users/iankw/Desktop/CODE/Unity-Games/Multiplayer
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [5812] Host "[IP] 192.168.1.113 [Port] 0 [Flags] 2 [Guid] 69182641 [EditorId] 69182641 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9QH1RVP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [5812] Host "[IP] 192.168.1.113 [Port] 0 [Flags] 2 [Guid] 69182641 [EditorId] 69182641 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9QH1RVP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 114.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.20f1 (577897200b8b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/iankw/Desktop/CODE/Unity-Games/Multiplayer/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
+    Vendor:   NVIDIA
+    VRAM:     10078 MB
+    Driver:   30.0.14.7284
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007941 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 115.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.620 seconds
+Domain Reload Profiling:
+	ReloadAssembly (621ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (454ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (87ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (299ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (116ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (124ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.012188 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\iankw\Desktop\CODE\Unity-Games\Multiplayer\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\iankw\Desktop\CODE\Unity-Games\Multiplayer\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 111.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.410 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1410ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1199ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (311ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (667ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (112ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (337ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6866 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 58 unused Assets / (0.8 MB). Loaded Objects now: 7318.
+Memory consumption went from 263.5 MB to 262.7 MB.
+Total: 13.863900 ms (FindLiveObjects: 1.395600 ms CreateObjectMapping: 5.097200 ms MarkObjects: 6.995200 ms  DeleteObjects: 0.374400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7881.947400 seconds.
+  path: Assets/ChatGPT Script Generator
+  artifactKey: Guid(04cc6b3db44645b48912b33b11d7eedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ChatGPT Script Generator using Guid(04cc6b3db44645b48912b33b11d7eedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64599613a490576a06fd8b5b5dd22717') in 0.027337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 222.601102 seconds.
+  path: Assets/zombie/Prefabs/Zombie2.prefab
+  artifactKey: Guid(d58be77cba3adf54cb14b15052b86514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/zombie/Prefabs/Zombie2.prefab using Guid(d58be77cba3adf54cb14b15052b86514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ac9c6896b98d6ecc72ae302461e97e4') in 0.273859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 354.450046 seconds.
+  path: Assets/zombiecarl Variant.prefab
+  artifactKey: Guid(bd8727892e84a234ca10f9edf416ec1e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/zombiecarl Variant.prefab using Guid(bd8727892e84a234ca10f9edf416ec1e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ac98ddd63abd8916e98def5277aa500') in 0.309045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Extras/Settings/Low_PipelineAsset_ForwardRenderer.asset
+  artifactKey: Guid(55e4d2b92cc819740809f8b075d0f705) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/Settings/Low_PipelineAsset_ForwardRenderer.asset using Guid(55e4d2b92cc819740809f8b075d0f705) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bf374e6d8e4c774b6f6b0817bd518439') in 0.032008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TPP-Shooter-Models/BodyGuard-3-Shooter.prefab
+  artifactKey: Guid(ca8a550bee043fe40babf9a207e191a0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/TPP-Shooter-Models/BodyGuard-3-Shooter.prefab using Guid(ca8a550bee043fe40babf9a207e191a0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a855587ad23dbf1323431c77623067f4') in 0.303057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Extras/BodyGuards/BodyGuardsScene.unity
+  artifactKey: Guid(67a05a7a676f7cc438c5e95580a1a9d6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/BodyGuards/BodyGuardsScene.unity using Guid(67a05a7a676f7cc438c5e95580a1a9d6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Opening scene 'Assets/Extras/BodyGuards/BodyGuardsScene.unity additively'
+LightingSettings: switching bake backend from 1 to 0.
+Loaded scene 'Assets/Extras/BodyGuards/BodyGuardsScene.unity'
+	Deserialize:            7.533 ms
+	Integration:            40.277 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.009 ms
+	Total Operation Time:   47.821 ms
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8afac5d49301596c5bc098037dce4ca3') in 0.791464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ChatGPT Script Generator/ChatGPT Script Generator Documentation.pdf
+  artifactKey: Guid(f60ae5993ad20ec41b91c49d8e5c4c1f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/ChatGPT Script Generator/ChatGPT Script Generator Documentation.pdf using Guid(f60ae5993ad20ec41b91c49d8e5c4c1f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1b2f1d960525137392a9e7e544b46d14') in 0.017402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Extras/Settings/Ultra_PipelineAsset_ForwardRenderer.asset
+  artifactKey: Guid(63a1c95e6f34d564fbf06eb22d067b37) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/Settings/Ultra_PipelineAsset_ForwardRenderer.asset using Guid(63a1c95e6f34d564fbf06eb22d067b37) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '10252e291795c215e6dc958f6abb64d1') in 0.025853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Top-Down-Camera-Models/mech_skeleton.prefab
+  artifactKey: Guid(ccacca9eed430514c85d0ca93b60bec7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Top-Down-Camera-Models/mech_skeleton.prefab using Guid(ccacca9eed430514c85d0ca93b60bec7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b56bdb86f814de9f18514289bb18957') in 0.174699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/zombie/Animations/Z_Attack.anim
+  artifactKey: Guid(de559bbb071ebfd40ab5af80881e75e8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/zombie/Animations/Z_Attack.anim using Guid(de559bbb071ebfd40ab5af80881e75e8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f88c2589b139f7bc53e0961f1411534') in 0.029411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Extras/ball model.prefab
+  artifactKey: Guid(276f8b770f6d8a94f8b0feb8ae3f39f6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/ball model.prefab using Guid(276f8b770f6d8a94f8b0feb8ae3f39f6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd51b589d4b622c5f750783841c201791') in 0.035936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TPP-Shooter-Models/Projectiles_Aiming/Hit_02.prefab
+  artifactKey: Guid(ec3f674830402cc45bce805cf6493db7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/TPP-Shooter-Models/Projectiles_Aiming/Hit_02.prefab using Guid(ec3f674830402cc45bce805cf6493db7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '22db649c869fe1c4262855cce88add56') in 0.244753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TPP-Shooter-Models/Projectiles_Aiming/Hit_01.prefab
+  artifactKey: Guid(a2ab56839e1c9504ea9d141e95d0b16b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/TPP-Shooter-Models/Projectiles_Aiming/Hit_01.prefab using Guid(a2ab56839e1c9504ea9d141e95d0b16b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '96d5bbc5d8a67623bc16151f4ce498e7') in 0.257564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Original-Models/Underwear1.prefab
+  artifactKey: Guid(1733e098fdf8a9447bda920a3e41b14e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Original-Models/Underwear1.prefab using Guid(1733e098fdf8a9447bda920a3e41b14e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9f960b9b9523766fdd7eb2da869d1942') in 0.100057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/navmesh-components/Editor/NavMeshModifierEditor.cs
+  artifactKey: Guid(4f738d4b12d84e0fa03d19ae7664523e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/navmesh-components/Editor/NavMeshModifierEditor.cs using Guid(4f738d4b12d84e0fa03d19ae7664523e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b15664a0bc216e6afc6cfc46392849fb') in 0.020750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/navmesh-components/CONTRIBUTING.md
+  artifactKey: Guid(20a4fc9dd1574bcbbcb9c908f42c1412) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/navmesh-components/CONTRIBUTING.md using Guid(20a4fc9dd1574bcbbcb9c908f42c1412) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f253882b6f8792ed96c31b66bbe0989') in 0.015408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/navmesh-components/Editor/NavMeshSurfaceEditor.cs
+  artifactKey: Guid(1ca4ca345a6e47ecb032b8add10a5b7e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/navmesh-components/Editor/NavMeshSurfaceEditor.cs using Guid(1ca4ca345a6e47ecb032b8add10a5b7e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f08d7738a38cacea2201aa072300afae') in 0.009261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Extras/Settings/Medium_PipelineAsset.asset
+  artifactKey: Guid(cc741149226dfc04997470986f268e52) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/Settings/Medium_PipelineAsset.asset using Guid(cc741149226dfc04997470986f268e52) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '787ed07ac3ba4985c3ff75a6f519b36d') in 0.036769 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/starter-assets-demo.unity
+  artifactKey: Guid(e9017d5f96b9f09489b4b37e1d6eb914) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Scenes/starter-assets-demo.unity using Guid(e9017d5f96b9f09489b4b37e1d6eb914) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Opening scene 'Assets/Scenes/starter-assets-demo.unity additively'
+Loaded scene 'Assets/Scenes/starter-assets-demo.unity'
+	Deserialize:            6.510 ms
+	Integration:            156.750 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.014 ms
+	Total Operation Time:   163.277 ms
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c402865d226aa9ba55d1520b71d45855') in 0.723844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Extras/BodyGuards/Textures/Boduguard_01_Ao.tga
+  artifactKey: Guid(8bec9d2b7901f934993b6e4b4f530d2c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/BodyGuards/Textures/Boduguard_01_Ao.tga using Guid(8bec9d2b7901f934993b6e4b4f530d2c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b9b7bb1ee30128df091e7a04446c1a5d') in 0.040442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/zombie/Textures/Zombie.tga
+  artifactKey: Guid(6291fbf5d0e7c4642ad863eaf8b60622) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/zombie/Textures/Zombie.tga using Guid(6291fbf5d0e7c4642ad863eaf8b60622) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5b3ddff6a38fcb48229a68a77d177ac1') in 0.020241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/zombie/Animations/Zombie@Z_Walk_InPlace.FBX
+  artifactKey: Guid(165698eac7ca81041ad603fc5a3afa55) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/zombie/Animations/Zombie@Z_Walk_InPlace.FBX using Guid(165698eac7ca81041ad603fc5a3afa55) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e4796bb53dccedc35dde0984e3083464') in 0.073335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TPP-Shooter-Models/Haram-Shooter.prefab
+  artifactKey: Guid(6b4041953d1903b45af15faf96afb9be) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/TPP-Shooter-Models/Haram-Shooter.prefab using Guid(6b4041953d1903b45af15faf96afb9be) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f8cc188ba8022824758a61918b9d23ce') in 0.165212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/navmesh-components/package.json
+  artifactKey: Guid(16b1491ba99a41389db56e727823246e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/navmesh-components/package.json using Guid(16b1491ba99a41389db56e727823246e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '177a58ec241539f0e153c5a738a57fc2') in 0.028758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/zombie/Animations/Z_FallingBack.anim
+  artifactKey: Guid(812aae90a9297f249908057eed4c0879) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/zombie/Animations/Z_FallingBack.anim using Guid(812aae90a9297f249908057eed4c0879) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c554344846d7689f369d14f1333326e6') in 0.025592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/navmesh-components/LICENSE.md
+  artifactKey: Guid(6189da4d2c2a4e85bb09afff93151955) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/navmesh-components/LICENSE.md using Guid(6189da4d2c2a4e85bb09afff93151955) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e9d21d172b200f3308ab491e818fdae5') in 0.021934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Extras/Settings/High_PipelineAsset.asset
+  artifactKey: Guid(1fa2799b7e3314d40956628ff5aa1bfc) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/Settings/High_PipelineAsset.asset using Guid(1fa2799b7e3314d40956628ff5aa1bfc) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b26a077cab5839196630b13ac02fdb7f') in 0.026616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Top-Down-Camera-Models/bodyGuard_1_animated.prefab
+  artifactKey: Guid(3d43716cda23d0e45abbf2ede4c79ce7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Top-Down-Camera-Models/bodyGuard_1_animated.prefab using Guid(3d43716cda23d0e45abbf2ede4c79ce7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dde76e64830330bcf72342a4900d8480') in 0.198720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Extras/BodyGuards/Textures/Boduguard_03_S.tga
+  artifactKey: Guid(13c234ed86c11ed45877a9b065136542) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/BodyGuards/Textures/Boduguard_03_S.tga using Guid(13c234ed86c11ed45877a9b065136542) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '76bd8715b64179d4ec8df8665810978a') in 0.033548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/zombie/Animations/Zombie.controller
+  artifactKey: Guid(2ef8e6599b7f9934e8ff0d64c5325a1f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/zombie/Animations/Zombie.controller using Guid(2ef8e6599b7f9934e8ff0d64c5325a1f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0bf935f15f47b30bc1fd5243a646bf5a') in 0.030509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/navmesh-components/Editor/NavMeshLinkEditor.cs
+  artifactKey: Guid(fc11f2108db040c1b22389933d004af9) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/navmesh-components/Editor/NavMeshLinkEditor.cs using Guid(fc11f2108db040c1b22389933d004af9) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '106a2b3e37fe8bc6700d60ee5c6b47b6') in 0.020466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/zombie/Animations/Zombie@Z_Walk1.FBX
+  artifactKey: Guid(1d31b4476a14a0246b2e0f023e8877fe) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/zombie/Animations/Zombie@Z_Walk1.FBX using Guid(1d31b4476a14a0246b2e0f023e8877fe) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '25e526e3a212991013ee75ad33754e42') in 0.057605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/navmesh-components/Editor/NavMeshAssetManager.cs
+  artifactKey: Guid(9639b75e23834ac592ae0d0dbc1fbad4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/navmesh-components/Editor/NavMeshAssetManager.cs using Guid(9639b75e23834ac592ae0d0dbc1fbad4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f6cfa676f0faadeae73cf11767c00de6') in 0.010420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/zombie/Animations/Z_FallingForward.anim
+  artifactKey: Guid(e44a892308e84194f9f7a5817a6285d7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/zombie/Animations/Z_FallingForward.anim using Guid(e44a892308e84194f9f7a5817a6285d7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fb2dc28b2e28925e45db92dc8dce8cfd') in 0.025864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Code/TPP_Controller.cs
+  artifactKey: Guid(20ad080a8ce71ae4c81d862dca43bd34) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Code/TPP_Controller.cs using Guid(20ad080a8ce71ae4c81d862dca43bd34) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '71e23d4e4702bce1f592c53e7cdece85') in 0.013988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Extras/Settings/Very Low_PipelineAsset.asset
+  artifactKey: Guid(0f12c4da13d32814a90073b4dcfeccd9) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/Settings/Very Low_PipelineAsset.asset using Guid(0f12c4da13d32814a90073b4dcfeccd9) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e954c0a4160f8d7c0387b1817223fb40') in 0.028316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Extras/BodyGuards/Textures/Boduguard_02_N.tga
+  artifactKey: Guid(4b534fe9e5393554dafc0aef62f69c5c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/BodyGuards/Textures/Boduguard_02_N.tga using Guid(4b534fe9e5393554dafc0aef62f69c5c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6be58d380661d23c66542ec3461cf195') in 0.030933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Code/ZombieStats.cs
+  artifactKey: Guid(18ad0fbd3ccbc284dba5dea9d5db71f7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Code/ZombieStats.cs using Guid(18ad0fbd3ccbc284dba5dea9d5db71f7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8d787465a2c1ca846db6b0aee7bf594a') in 0.011468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Extras/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+  artifactKey: Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf using Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc128b37afa5a211c585684bbc056a5f') in 0.009446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Extras/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '72577cb78c9dd1c39a2e2876c0e98f8d') in 0.024883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Extras/StarterAssets/InputSystem/StarterAssets.inputsettings.asset
+  artifactKey: Guid(9e7be553448fa2546aea5752021cbcf7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/StarterAssets/InputSystem/StarterAssets.inputsettings.asset using Guid(9e7be553448fa2546aea5752021cbcf7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5aea93671bf7efc328d3243d748977a0') in 0.022310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Extras/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e192c6da0d6a4815e7b75761e614810f') in 0.024711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Extras/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '410e3ad9a99ab4c7e6be77891d23ec42') in 0.019858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Extras/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '069b2750236254ac2353ffd7cfdeb0ce') in 0.015493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Extras/TextMesh Pro/Shaders/TMP_Bitmap.shader
+  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0e8415b12510f0567abb03109ea00e8') in 0.013336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Extras/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '03907b68fd2fe05b1a438bff77ac3be5') in 0.010121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Extras/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '18b0491043fa263f28fd749757600dc3') in 0.058676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Extras/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4f406c315478c764b51048e4cc146d33') in 0.018679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Extras/StarterAssets/InputSystem/StarterAssetsInputs.cs
+  artifactKey: Guid(e087ecce43ebbff45a1b360637807d93) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/StarterAssets/InputSystem/StarterAssetsInputs.cs using Guid(e087ecce43ebbff45a1b360637807d93) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '790e4d4f2e20b2564a741db524b4c647') in 0.009630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/TPP-Shooter-Models/BodyGuard-2-Shooter.prefab
+  artifactKey: Guid(67362c7c33f46554f9987de13f43d850) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/TPP-Shooter-Models/BodyGuard-2-Shooter.prefab using Guid(67362c7c33f46554f9987de13f43d850) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '761b3758900fbd88ad6a1aeba6157f50') in 0.214856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Extras/TextMesh Pro/Shaders/TMP_Sprite.shader
+  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1fa6452dd0523062ce525e8163f21f33') in 0.012557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Extras/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e801d8714dd13c5a967c224e7e9b97c') in 0.013014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Extras/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+  artifactKey: Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader using Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ab53c76dd7e9f9e0a1fa650451b32991') in 0.012064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Extras/VolumetricLines/Scripts/VolumetricLineBehavior.cs
+  artifactKey: Guid(0884dceb0d4308c4eb8bc763c8f8deae) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/VolumetricLines/Scripts/VolumetricLineBehavior.cs using Guid(0884dceb0d4308c4eb8bc763c8f8deae) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '58c27862caeb24c6d13880a95b393120') in 0.012160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Extras/BodyGuards/Textures/Boduguard_01_D.tga
+  artifactKey: Guid(0882e157fc9368c44ae9b825c74cf1af) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/BodyGuards/Textures/Boduguard_01_D.tga using Guid(0882e157fc9368c44ae9b825c74cf1af) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a8919cc7f75ad155ef2466eb88e428d2') in 0.022531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Extras/VolumetricLines/Scripts/VolumetricLineVertexData.cs
+  artifactKey: Guid(21887c148ed9f8143a28d8e6c7efcbd2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/VolumetricLines/Scripts/VolumetricLineVertexData.cs using Guid(21887c148ed9f8143a28d8e6c7efcbd2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7e0256057ede5e81d0cbeb7b3d22f490') in 0.010765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Extras/Settings/Very High_PipelineAsset.asset
+  artifactKey: Guid(c86c61f503f9b4d498ef7cef9330be38) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/Settings/Very High_PipelineAsset.asset using Guid(c86c61f503f9b4d498ef7cef9330be38) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f0c552df8492f12cdef635514b37cfc') in 0.032743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/zombie/Textures/Zombie_nm.png
+  artifactKey: Guid(decb53c07686cc94b860f8e04d438d22) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/zombie/Textures/Zombie_nm.png using Guid(decb53c07686cc94b860f8e04d438d22) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '84de3afb328ba17c223cd09f569a86b9') in 0.024678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Code/playerDetect.cs
+  artifactKey: Guid(d183a9bd600e99e439c68ae7397a025a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Code/playerDetect.cs using Guid(d183a9bd600e99e439c68ae7397a025a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd834868d72599c4d204445ed460f56ea') in 0.008920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/zombie/Animations/Zombie@Z_Walk1_InPlace.FBX
+  artifactKey: Guid(3fa7045af54b82c47852949257d136c7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/zombie/Animations/Zombie@Z_Walk1_InPlace.FBX using Guid(3fa7045af54b82c47852949257d136c7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '698a7c30784c670d0d874130a0b0e011') in 0.051044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/navmesh-components/Runtime/NavMeshModifierVolume.cs
+  artifactKey: Guid(62f0abae60124dbfa3f7c3b5210c5ee4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/navmesh-components/Runtime/NavMeshModifierVolume.cs using Guid(62f0abae60124dbfa3f7c3b5210c5ee4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2a74cfb644d19ed63e9fb9ae85042231') in 0.007995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/TPP-Shooter.unity
+  artifactKey: Guid(4a05582a1d285e049adc3f148474fb8a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Scenes/TPP-Shooter.unity using Guid(4a05582a1d285e049adc3f148474fb8a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Opening scene 'Assets/Scenes/TPP-Shooter.unity additively'
+Loaded scene 'Assets/Scenes/TPP-Shooter.unity'
+	Deserialize:            5.171 ms
+	Integration:            33.523 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.047 ms
+	Total Operation Time:   38.743 ms
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f4f8f913b743f5a524c0ce8f4367382') in 0.267328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Extras/BodyGuards/Meshes/Materials/Screen.mat
+  artifactKey: Guid(d96e8d03daef94649bd028f4efd2773f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/BodyGuards/Meshes/Materials/Screen.mat using Guid(d96e8d03daef94649bd028f4efd2773f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9630fb686c952c83d0b4a86070168b34') in 0.015011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Extras/StarterAssets/Environment/Prefabs/Tunnel_Prefab.prefab
+  artifactKey: Guid(e5d7b87d422ee0f478ee09eb32e24f4e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/StarterAssets/Environment/Prefabs/Tunnel_Prefab.prefab using Guid(e5d7b87d422ee0f478ee09eb32e24f4e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c62cd6e5d43dae9eb1715b839780297b') in 0.022218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Extras/StarterAssets/Environment/RenderPipelineProfiles/StarterAssetsURPAsset.asset
+  artifactKey: Guid(f48f873ae78af40b9a7b8220a8c6f95f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/StarterAssets/Environment/RenderPipelineProfiles/StarterAssetsURPAsset.asset using Guid(f48f873ae78af40b9a7b8220a8c6f95f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '901806e481062b176c1c06513a1db968') in 0.027839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Extras/BodyGuards/Textures/Boduguard_02_S.tga
+  artifactKey: Guid(8be71c89d8f17fb49857815df64070ed) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/BodyGuards/Textures/Boduguard_02_S.tga using Guid(8be71c89d8f17fb49857815df64070ed) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'db3a2a79339e4fb520df15d689ae1574') in 0.028044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Extras/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b1e1432d9104bfd3e42bfea3097c2cb') in 0.014251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Extras/floor.mat
+  artifactKey: Guid(3585434a92bb70249895f2a1dec0c702) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/floor.mat using Guid(3585434a92bb70249895f2a1dec0c702) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd44401d09a93f6f762d8fd647f2c355e') in 0.011884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/zombie/Textures/Zombie_ao.png
+  artifactKey: Guid(4ef3438267568cd40b87841c3e2c22c5) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/zombie/Textures/Zombie_ao.png using Guid(4ef3438267568cd40b87841c3e2c22c5) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '201e595aadad00f23e25f83616aa2b75') in 0.023682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/zombie/Animations/Z_Walk1.anim
+  artifactKey: Guid(2695de705873c1f44ac4a4341c85c8a4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/zombie/Animations/Z_Walk1.anim using Guid(2695de705873c1f44ac4a4341c85c8a4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea4aa02997e2eaf04943bbeb81396153') in 0.020836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Extras/BodyGuards/ReadMe.txt.txt
+  artifactKey: Guid(1ebe39182b265494aae2966f6501f052) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/BodyGuards/ReadMe.txt.txt using Guid(1ebe39182b265494aae2966f6501f052) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '119cc28b0e63818f786025fb2de2f583') in 0.013820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Code/zombieBrain.cs
+  artifactKey: Guid(83522220c5744e9468a00651dc819482) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Code/zombieBrain.cs using Guid(83522220c5744e9468a00651dc819482) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '211344e9d42fada3cee623a3b8489cfe') in 0.010461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/zombie/FBXs/Zombie2.FBX
+  artifactKey: Guid(6a28a82791e0b224081a04d42d031ccf) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/zombie/FBXs/Zombie2.FBX using Guid(6a28a82791e0b224081a04d42d031ccf) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fb35727582077e2e6fb010ef439ba62c') in 0.036329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/navmesh-components/Editor/NavMeshComponentsEditor.asmdef
+  artifactKey: Guid(53e2be30b504440cabb695dc99b439b1) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/navmesh-components/Editor/NavMeshComponentsEditor.asmdef using Guid(53e2be30b504440cabb695dc99b439b1) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b1b72f4893f6d141fbff9ebd9eefde00') in 0.031096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Extras/StarterAssets/ThirdPersonController/Prefabs/MainCamera.prefab
+  artifactKey: Guid(f6d148d888ffbf54b9afe9936dfaec1f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/StarterAssets/ThirdPersonController/Prefabs/MainCamera.prefab using Guid(f6d148d888ffbf54b9afe9936dfaec1f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2d6c9d336c3de831eebd21004c603abf') in 0.027893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Extras/StarterAssets/ThirdPersonController/Prefabs/PlayerArmature.prefab
+  artifactKey: Guid(64dce48905ffd9b4293e595fa6941544) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/StarterAssets/ThirdPersonController/Prefabs/PlayerArmature.prefab using Guid(64dce48905ffd9b4293e595fa6941544) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '776fbb2cf999a97e3200b3097e58d56f') in 0.155609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Extras/StarterAssets/ThirdPersonController/Prefabs/NestedParentArmature_Unpack.prefab
+  artifactKey: Guid(c708a3b79cd542b42bbfedb17e213bc1) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/StarterAssets/ThirdPersonController/Prefabs/NestedParentArmature_Unpack.prefab using Guid(c708a3b79cd542b42bbfedb17e213bc1) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6a93639b4c197ad342117d86066e5797') in 0.302724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Extras/Travis Game Assets/Hit Impact Effects/Demo Scene/Hit Impact Effects - Demo Scene.unity
+  artifactKey: Guid(f286ec8e1ebc11946a1dd4b70f5ef31a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/Travis Game Assets/Hit Impact Effects/Demo Scene/Hit Impact Effects - Demo Scene.unity using Guid(f286ec8e1ebc11946a1dd4b70f5ef31a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Opening scene 'Assets/Extras/Travis Game Assets/Hit Impact Effects/Demo Scene/Hit Impact Effects - Demo Scene.unity additively'
+Loaded scene 'Assets/Extras/Travis Game Assets/Hit Impact Effects/Demo Scene/Hit Impact Effects - Demo Scene.unity'
+	Deserialize:            32.796 ms
+	Integration:            23.272 ms
+	Integration of assets:  0.214 ms
+	Thread Wait Time:       0.006 ms
+	Total Operation Time:   56.287 ms
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c0fa179626ea0a41826272a5a53787ed') in 1.020247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Extras/StarterAssets/Mobile/UI/UI_Circle_Faded.png
+  artifactKey: Guid(90ded0611e490aa4ba6961afbfc2280d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/StarterAssets/Mobile/UI/UI_Circle_Faded.png using Guid(90ded0611e490aa4ba6961afbfc2280d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd8d35a6d59eae522d85711b903f80828') in 0.043537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Extras/VolumetricLines/BuiltInRenderPipeline/Shaders/LineStrip-LightSaber.shader
+  artifactKey: Guid(8ca03c355c08f5047bdf5b6f9ed24e51) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/VolumetricLines/BuiltInRenderPipeline/Shaders/LineStrip-LightSaber.shader using Guid(8ca03c355c08f5047bdf5b6f9ed24e51) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd96e49dcc952e8d37ed61f810320fff') in 0.028582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Extras/VolumetricLines/BuiltInRenderPipeline/Prefabs/SingleLine-TextureAdditive.prefab
+  artifactKey: Guid(66e0018a9e63c4348b7a340890e5b30c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/VolumetricLines/BuiltInRenderPipeline/Prefabs/SingleLine-TextureAdditive.prefab using Guid(66e0018a9e63c4348b7a340890e5b30c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3ee58ceff3bed469e32b18683749b18b') in 0.038233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Extras/VolumetricLines/BuiltInRenderPipeline/Shaders/SingleLine-TextureAdditive.shader
+  artifactKey: Guid(c7536b6df21e0894ca085bed81021836) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/VolumetricLines/BuiltInRenderPipeline/Shaders/SingleLine-TextureAdditive.shader using Guid(c7536b6df21e0894ca085bed81021836) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'afdb5e48581f4b6b5213039441fac122') in 0.016341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Extras/VolumetricLines/BuiltInRenderPipeline/Shaders/_LineStripShader.cginc
+  artifactKey: Guid(41c90c70f9188b44992f35519a5837c4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/VolumetricLines/BuiltInRenderPipeline/Shaders/_LineStripShader.cginc using Guid(41c90c70f9188b44992f35519a5837c4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '36f735c5a1f11e6e4548f50994c1d5f8') in 0.014238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Extras/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7853a1541ce5a9408a5a5c97b6add334') in 0.035792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Extras/Travis Game Assets/Hit Impact Effects/Textures/HIE_Haze_01.tga
+  artifactKey: Guid(d8cd8d5b86acdf64e984de35d4a37b6c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/Travis Game Assets/Hit Impact Effects/Textures/HIE_Haze_01.tga using Guid(d8cd8d5b86acdf64e984de35d4a37b6c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe1805f8072b5a7333fb0450b2c88fe7') in 0.028501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Extras/VolumetricLines/BuiltInRenderPipeline/Prefabs/SingleLine-LightSaber.prefab
+  artifactKey: Guid(11530f2b0a0cd2442949827ecbb622f2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/VolumetricLines/BuiltInRenderPipeline/Prefabs/SingleLine-LightSaber.prefab using Guid(11530f2b0a0cd2442949827ecbb622f2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd45843a2bf10ef275808e0584c7b4ed2') in 0.030861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Extras/TextMesh Pro/Low Poly Guns/Scripts/GunsMenu.cs
+  artifactKey: Guid(c859d416b6fab4749b7d8f1d9dc840eb) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Low Poly Guns/Scripts/GunsMenu.cs using Guid(c859d416b6fab4749b7d8f1d9dc840eb) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd71b36860b5b9550b9d17b6d7800003') in 0.008847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Extras/StarterAssets/Environment/Prefabs/Box_350x250x300_Prefab.prefab
+  artifactKey: Guid(687dbafc2b84b2846b9a4a7a7dae2a7e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/StarterAssets/Environment/Prefabs/Box_350x250x300_Prefab.prefab using Guid(687dbafc2b84b2846b9a4a7a7dae2a7e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '900e6ea2eeff281630a0e275e16ec6b6') in 0.024641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Extras/VolumetricLines/BuiltInRenderPipeline/Shaders/_SingleLineShader.cginc
+  artifactKey: Guid(d82cce7e69a2c454d931304b0ae4829a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/VolumetricLines/BuiltInRenderPipeline/Shaders/_SingleLineShader.cginc using Guid(d82cce7e69a2c454d931304b0ae4829a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1dfd38e3fcea3f06b84e41b3ef4c3f1e') in 0.015164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Extras/StarterAssets/Mobile/UI/UI_Icon_Sprint.png
+  artifactKey: Guid(b0fa70abd2a79904cb00b175dfd8ec7e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/StarterAssets/Mobile/UI/UI_Icon_Sprint.png using Guid(b0fa70abd2a79904cb00b175dfd8ec7e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2f4fcc3811707f128bdf65856740ebc3') in 0.026474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Extras/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/LineGenerationScripts.unity
+  artifactKey: Guid(5b2755a8fdfb8dc43a73d7fa7608323a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/LineGenerationScripts.unity using Guid(5b2755a8fdfb8dc43a73d7fa7608323a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Opening scene 'Assets/Extras/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/LineGenerationScripts.unity additively'
+LightingSettings: switching bake backend from 1 to 0.
+Loaded scene 'Assets/Extras/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/LineGenerationScripts.unity'
+	Deserialize:            5.299 ms
+	Integration:            0.862 ms
+	Integration of assets:  0.006 ms
+	Thread Wait Time:       0.009 ms
+	Total Operation Time:   6.175 ms
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3bdf214674e4b8dc9d3b6e4edc4546c2') in 0.033103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Extras/TextMesh Pro/Low Poly Guns/Scenes/MainSettings.lighting
+  artifactKey: Guid(5836b22e0e4c85f439d83b8a3339d705) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Low Poly Guns/Scenes/MainSettings.lighting using Guid(5836b22e0e4c85f439d83b8a3339d705) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '91ddbcf00d8039395a0f088a6af74073') in 0.024373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Extras/VolumetricLines/BuiltInRenderPipeline/Shaders/LineStrip-TextureAlphaBlended.shader
+  artifactKey: Guid(174173bcbfb7bff41ab736987776b31e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/VolumetricLines/BuiltInRenderPipeline/Shaders/LineStrip-TextureAlphaBlended.shader using Guid(174173bcbfb7bff41ab736987776b31e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b558faa68ee964aa8356bd752a06df05') in 0.010858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Extras/VolumetricLines/BuiltInRenderPipeline/Shaders/SingleLine-LightSaber.shader
+  artifactKey: Guid(2d9a4ca4b2730b64e8aade7030f8caeb) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/VolumetricLines/BuiltInRenderPipeline/Shaders/SingleLine-LightSaber.shader using Guid(2d9a4ca4b2730b64e8aade7030f8caeb) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '81ae7cf0b1bc4a9a9163d085e9e91dff') in 0.010853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/VCR01/VCR_AWM/Black/URP/AWMOptimized_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(9e4cc077d0dc222479ebad59c0df5deb) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/VCR01/VCR_AWM/Black/URP/AWMOptimized_DefaultMaterial_AlbedoTransparency.png using Guid(9e4cc077d0dc222479ebad59c0df5deb) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d8cf1885d42b21a2e7ce10ec089feae') in 0.031963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/VCR01/VCR_AWM/Sand/URP/AWMOptimized_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(e8ad23d630e513b4da2ae4652217fa22) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/VCR01/VCR_AWM/Sand/URP/AWMOptimized_DefaultMaterial_AlbedoTransparency.png using Guid(e8ad23d630e513b4da2ae4652217fa22) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9f8e79eaa38151ba479a3b809032f0d4') in 0.032203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/Demo files/AC.controller
+  artifactKey: Guid(f198b02e0e99f8d458e8beaa4c101d65) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/Demo files/AC.controller using Guid(f198b02e0e99f8d458e8beaa4c101d65) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '90ba8c17fa7f0a0fa411049876b8cd33') in 0.014066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/VCR01/VCR_AWM/Black/URP/URP.mat
+  artifactKey: Guid(5c4b2dbe8e2f8d34cad9754114ef52bc) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/VCR01/VCR_AWM/Black/URP/URP.mat using Guid(5c4b2dbe8e2f8d34cad9754114ef52bc) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eac665221053788b7d8849517137c26a') in 0.043908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/VCR01/VCR_AWM/Sand/URP/AWMOptimized_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(6dd208a214707f549900f2b6330bb3b6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/VCR01/VCR_AWM/Sand/URP/AWMOptimized_DefaultMaterial_MetallicSmoothness.png using Guid(6dd208a214707f549900f2b6330bb3b6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7f5a98c1e4c47d00c830be75a8cfe0cf') in 0.034734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Extras/StarterAssets/Environment/Art/Models/Ramp_100x100x200_Mesh.fbx
+  artifactKey: Guid(bfff06aaff363a847ad37bf592364e6b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/StarterAssets/Environment/Art/Models/Ramp_100x100x200_Mesh.fbx using Guid(bfff06aaff363a847ad37bf592364e6b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c6f27f76fddce7f36bece8dd28ebebf2') in 0.033497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/VCR01/VCR_AWM/Sand/URP/AWMOptimized_DefaultMaterial_Emission.png
+  artifactKey: Guid(c787972c9afdf7b4297d31b90d371fa7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/VCR01/VCR_AWM/Sand/URP/AWMOptimized_DefaultMaterial_Emission.png using Guid(c787972c9afdf7b4297d31b90d371fa7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '886db4e3491c854db70d9b25af835e0e') in 0.034126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Extras/StarterAssets/Environment/Art/Materials/GridOrange_01_Mat.mat
+  artifactKey: Guid(7ab977a21c92388468ee65ad1c0e5a78) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/StarterAssets/Environment/Art/Materials/GridOrange_01_Mat.mat using Guid(7ab977a21c92388468ee65ad1c0e5a78) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '65b8bb517c2a40b56a1e3634ceace3eb') in 0.020877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/VCR01/VCR_AWM/Olive/URP/AWMOptimizedOliveURP.prefab
+  artifactKey: Guid(74d541ec52fd80a418d2c7028f615686) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/VCR01/VCR_AWM/Olive/URP/AWMOptimizedOliveURP.prefab using Guid(74d541ec52fd80a418d2c7028f615686) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1a6b4c7449af576137862aeba4e9fed8') in 0.077291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/zombie/Animations/Z_Walk.anim
+  artifactKey: Guid(77c3de37a980599489d5f7f009c186fd) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/zombie/Animations/Z_Walk.anim using Guid(77c3de37a980599489d5f7f009c186fd) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '546d82a61e4157009f4e45d1a09e9892') in 0.019532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/demo-top-down.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Scenes/demo-top-down.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Opening scene 'Assets/Scenes/demo-top-down.unity additively'
+Loaded scene 'Assets/Scenes/demo-top-down.unity'
+	Deserialize:            32.395 ms
+	Integration:            64.657 ms
+	Integration of assets:  0.756 ms
+	Thread Wait Time:       0.038 ms
+	Total Operation Time:   97.846 ms
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '295b4cc1c034ec78ecb4292560bb6972') in 1.054592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Extras/StarterAssets/ThirdPersonController/Scenes/Playground/ReflectionProbe-0.exr
+  artifactKey: Guid(b65762d7243eb714e903b585ed68a576) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/StarterAssets/ThirdPersonController/Scenes/Playground/ReflectionProbe-0.exr using Guid(b65762d7243eb714e903b585ed68a576) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc18ac6aca795ec46c1c729af5bc5b86') in 0.024191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Extras/TextMesh Pro/Shaders/TMP_SDF.shader
+  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '12fc1b522bbc0e5a3b91ae13a03d89b2') in 0.012239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Extras/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e5163582b6b46604d82f8d1d31f414cc') in 0.013017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Extras/StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_05.wav
+  artifactKey: Guid(14e8a8d2158bec840b56c54f5266e692) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/StarterAssets/ThirdPersonController/Character/Sfx/Player_Footstep_05.wav using Guid(14e8a8d2158bec840b56c54f5266e692) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1e6b128a616aa9c5cd03624fb137004') in 0.050674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Extras/Travis Game Assets/Hit Impact Effects/Demo Scene/Textures/HitImpactEffects_FloorIcon.png
+  artifactKey: Guid(d479ca3249c55844098864b714fbe36b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/Travis Game Assets/Hit Impact Effects/Demo Scene/Textures/HitImpactEffects_FloorIcon.png using Guid(d479ca3249c55844098864b714fbe36b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f5bdea410f6185732990ec30e7e05cf2') in 0.023870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Extras/Travis Game Assets/Hit Impact Effects/Demo Scene/Textures/HitImpactEffects_RotationIcon.png
+  artifactKey: Guid(b6f07674ead9bf948ad8585d8bd14fcc) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/Travis Game Assets/Hit Impact Effects/Demo Scene/Textures/HitImpactEffects_RotationIcon.png using Guid(b6f07674ead9bf948ad8585d8bd14fcc) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '525feb0179ee4d223b09bd912c3201fc') in 0.023211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Extras/StarterAssets/ThirdPersonController/Scenes/Playground/ReflectionProbe-2.exr
+  artifactKey: Guid(7e3f1677bc1aead4fb8791998078dcec) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/StarterAssets/ThirdPersonController/Scenes/Playground/ReflectionProbe-2.exr using Guid(7e3f1677bc1aead4fb8791998078dcec) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd456ea71bdc895d0b4c177ccd7fc9fb3') in 0.013408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Extras/Travis Game Assets/Hit Impact Effects/Demo Scene/Textures/NextPrevArrow.png
+  artifactKey: Guid(24139398538fce141848b8e6657d62f2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/Travis Game Assets/Hit Impact Effects/Demo Scene/Textures/NextPrevArrow.png using Guid(24139398538fce141848b8e6657d62f2) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e5fb71451a835657b1f9c14c7bed3ad7') in 0.021253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Extras/Travis Game Assets/Hit Impact Effects/Materials/Hits/HIE_Hit_03_PointGlow_01.mat
+  artifactKey: Guid(f634288f1034a534fab9a6b8055d29c3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/Travis Game Assets/Hit Impact Effects/Materials/Hits/HIE_Hit_03_PointGlow_01.mat using Guid(f634288f1034a534fab9a6b8055d29c3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3b79eb0da5d0d91cab80d8406554986e') in 0.014042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Extras/Travis Game Assets/Hit Impact Effects/Materials/Hits/HIE_Hit_03_Flash_2x2_01.mat
+  artifactKey: Guid(caa5d03f2c3027148b70f4e303fbfb33) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/Travis Game Assets/Hit Impact Effects/Materials/Hits/HIE_Hit_03_Flash_2x2_01.mat using Guid(caa5d03f2c3027148b70f4e303fbfb33) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c043b3bb5675e2d89ac3ac6022cc958a') in 0.020169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Extras/Travis Game Assets/Hit Impact Effects/Materials/Hits/HIE_Hit_01_Shockwave_2x2_01.mat
+  artifactKey: Guid(532579bcfafb59e439b5a4d594a6d7da) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/Travis Game Assets/Hit Impact Effects/Materials/Hits/HIE_Hit_01_Shockwave_2x2_01.mat using Guid(532579bcfafb59e439b5a4d594a6d7da) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b95de7389d28c287e4984e1701afa4c2') in 0.017567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Extras/Travis Game Assets/Hit Impact Effects/Materials/Hits/HIE_Hit_03_Shockwave_2x2_01.mat
+  artifactKey: Guid(00c13c49894d46146b27ce3a995d98d4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/Travis Game Assets/Hit Impact Effects/Materials/Hits/HIE_Hit_03_Shockwave_2x2_01.mat using Guid(00c13c49894d46146b27ce3a995d98d4) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '706b97cc6a969e7c27dc053eb4224318') in 0.015171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Extras/Travis Game Assets/Hit Impact Effects/Demo Scene/Materials/HitImpactEffects_Floor.mat
+  artifactKey: Guid(b0b4e880ae2ab6540b044e0c0252a003) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/Travis Game Assets/Hit Impact Effects/Demo Scene/Materials/HitImpactEffects_Floor.mat using Guid(b0b4e880ae2ab6540b044e0c0252a003) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '98ed6d4ed337c8ea896dd5bae3d82906') in 0.020076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Extras/StarterAssets/ThirdPersonController/Character/Animations/Jump--Jump.anim.fbx
+  artifactKey: Guid(98f277b0c8055e143b2fcf058d3c27dc) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/StarterAssets/ThirdPersonController/Character/Animations/Jump--Jump.anim.fbx using Guid(98f277b0c8055e143b2fcf058d3c27dc) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce5c4cc130b8a64adf3e102b1f4d66bd') in 0.030964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Extras/BodyGuards/BodyGuardsSceneSettings.lighting
+  artifactKey: Guid(a84a5c68a1a43d1479e44b50910d9363) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/BodyGuards/BodyGuardsSceneSettings.lighting using Guid(a84a5c68a1a43d1479e44b50910d9363) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) LightingSettings: switching bake backend from 1 to 0.
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ed81a11067c2350197f16612e6a0a111') in 0.013878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Extras/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9f020000407babf1211e7caef604cb8f') in 0.011746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/navmesh-components/CHANGELOG.md
+  artifactKey: Guid(2abf0513fb4049f0a04369c2279534ae) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/navmesh-components/CHANGELOG.md using Guid(2abf0513fb4049f0a04369c2279534ae) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ddaa7774752a17ae6bd69795d2344dba') in 0.018538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Extras/TextMesh Pro/Low Poly Guns/Scripts/GunView.cs
+  artifactKey: Guid(cc74bb52495beed45aa2ab2ba4b460ae) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Low Poly Guns/Scripts/GunView.cs using Guid(cc74bb52495beed45aa2ab2ba4b460ae) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cd61986648bc09fd79e053a656e1588d') in 0.012630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Extras/StarterAssets/Environment/Art/Models/Stairs_200x100x200_Mesh.fbx
+  artifactKey: Guid(fce3bf5a5b603db45ab0048fb6ab44df) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/StarterAssets/Environment/Art/Models/Stairs_200x100x200_Mesh.fbx using Guid(fce3bf5a5b603db45ab0048fb6ab44df) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dd3452efd6beea68e36522e95bb2d219') in 0.026568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Extras/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleMaterials/shot_mat.mat
+  artifactKey: Guid(f68f8c3a3d76fb74cbb880d372c81620) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleMaterials/shot_mat.mat using Guid(f68f8c3a3d76fb74cbb880d372c81620) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bf8f8bd9626f46a54f7587fc313c348f') in 0.020298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Extras/StarterAssets/StarterAssets_Documentation_v1.1.pdf
+  artifactKey: Guid(b5f957873a5b82042967195ffffc9063) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/StarterAssets/StarterAssets_Documentation_v1.1.pdf using Guid(b5f957873a5b82042967195ffffc9063) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '12d0170123f23e9c54e58a7cdf76cf6e') in 0.009562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Original-Models/Bodyguard_03.prefab
+  artifactKey: Guid(cc6b26ef3b75df54d9623ab79f5a2c1a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Original-Models/Bodyguard_03.prefab using Guid(cc6b26ef3b75df54d9623ab79f5a2c1a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '352967a49618da53fffe9be2312e7593') in 0.142517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Extras/TextMesh Pro/Low Poly Guns/Models/Guns/pistol3/pistol3.mat
+  artifactKey: Guid(41be456e0ecbed04dba9c27c3add980c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Low Poly Guns/Models/Guns/pistol3/pistol3.mat using Guid(41be456e0ecbed04dba9c27c3add980c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '77655d9ee6b51eb607eff6f558226b9f') in 0.033979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Extras/TextMesh Pro/Low Poly Guns/Models/Guns/shotgun1/shotgun1.fbx
+  artifactKey: Guid(f62f7dc06bd890d4aab43b8fd635fe02) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Low Poly Guns/Models/Guns/shotgun1/shotgun1.fbx using Guid(f62f7dc06bd890d4aab43b8fd635fe02) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ee9c0afcf32958fd52c15708f7f78811') in 0.025354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Extras/TextMesh Pro/Low Poly Guns/Models/Guns/assault1/assault1_diffuse.png
+  artifactKey: Guid(89fc40a82916a0c449b689ff792cbaba) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Low Poly Guns/Models/Guns/assault1/assault1_diffuse.png using Guid(89fc40a82916a0c449b689ff792cbaba) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '86113b2f233470a1750e64b2d71be97a') in 0.024975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Extras/TextMesh Pro/Low Poly Guns/Models/Guns/assault4/assault4.fbx
+  artifactKey: Guid(ffb3f5f9531da764c906b0baf3285c62) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Low Poly Guns/Models/Guns/assault4/assault4.fbx using Guid(ffb3f5f9531da764c906b0baf3285c62) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a819e9407d2663d02d67e7f507c7cefa') in 0.020216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Extras/TextMesh Pro/Low Poly Guns/Models/Guns/pistol4/pistol4_normal.png
+  artifactKey: Guid(662ac7af64edac14388027a3cc79fe57) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Low Poly Guns/Models/Guns/pistol4/pistol4_normal.png using Guid(662ac7af64edac14388027a3cc79fe57) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'acd9197aeee6daea24643acaf5daf7f4') in 0.033065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Extras/TextMesh Pro/Low Poly Guns/Models/Guns/pistol2/pistol2.mat
+  artifactKey: Guid(7c16b6e19b642c247ba765631635ff9e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Low Poly Guns/Models/Guns/pistol2/pistol2.mat using Guid(7c16b6e19b642c247ba765631635ff9e) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7a9ab9cf1592da8ebc2aaf8f3009e0b') in 0.018659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Extras/TextMesh Pro/Low Poly Guns/Models/Guns/assault1/assault1.fbx
+  artifactKey: Guid(33269b2b610f4c245a712795c1927939) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Low Poly Guns/Models/Guns/assault1/assault1.fbx using Guid(33269b2b610f4c245a712795c1927939) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '20d4a14da4ff8b6dfbe3357cd3683393') in 0.020799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Extras/TextMesh Pro/Low Poly Guns/Models/Guns/assault2/assault2_normal.png
+  artifactKey: Guid(f682931156928fc4e960b020752b0c9a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Low Poly Guns/Models/Guns/assault2/assault2_normal.png using Guid(f682931156928fc4e960b020752b0c9a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c61176350858e1f4585004d5f56dfdc') in 0.027806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/BaseCharacter.fbx
+  artifactKey: Guid(d8e6717bd7507b44c9fc5a0a6749ec6c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/BaseCharacter.fbx using Guid(d8e6717bd7507b44c9fc5a0a6749ec6c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc835a58acb7d3dfb29c1fbd5576a0b7') in 0.090003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Extras/TextMesh Pro/Low Poly Guns/Models/Guns/pistol4/pistol4_diffuse.png
+  artifactKey: Guid(56cbec784c34691408510d822d647cef) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Low Poly Guns/Models/Guns/pistol4/pistol4_diffuse.png using Guid(56cbec784c34691408510d822d647cef) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b0d038b1c35cf006c71b28af20131702') in 0.022219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Extras/TextMesh Pro/Low Poly Guns/Models/Guns/shotgun1/shotgun1_diffuse.png
+  artifactKey: Guid(e781dc70aeb60d44f9dd7a4a02cfae58) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Low Poly Guns/Models/Guns/shotgun1/shotgun1_diffuse.png using Guid(e781dc70aeb60d44f9dd7a4a02cfae58) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b064f28686bcc7d2c3345098ab62070a') in 0.038953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Extras/TextMesh Pro/Low Poly Guns/Models/Guns/smg2/smg2.mat
+  artifactKey: Guid(d05b83a5733b4ba469d3c1a5891d6f88) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Low Poly Guns/Models/Guns/smg2/smg2.mat using Guid(d05b83a5733b4ba469d3c1a5891d6f88) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '84114e57a9ffc5a2d8ff0ac3b8f2e2cb') in 0.035697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Extras/TextMesh Pro/Low Poly Guns/Models/Guns/sniper2/sniper2.mat
+  artifactKey: Guid(533eaf1384eb72d41bbf8a25b870c0f7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Low Poly Guns/Models/Guns/sniper2/sniper2.mat using Guid(533eaf1384eb72d41bbf8a25b870c0f7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd3b7ae990f962b9c438776d834cebd46') in 0.023356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Extras/TextMesh Pro/Low Poly Guns/Models/Guns/shotgun2/shotgun2_diffuse.png
+  artifactKey: Guid(e09185ed5b07b374a88f54491b40380d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Low Poly Guns/Models/Guns/shotgun2/shotgun2_diffuse.png using Guid(e09185ed5b07b374a88f54491b40380d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '608fb5e88ffe5e45f51047de509f12a6') in 0.029752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eyelashes.mat
+  artifactKey: Guid(29c9dd3707158b2448cc0bdf81c33ce8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eyelashes.mat using Guid(29c9dd3707158b2448cc0bdf81c33ce8) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '266de16f2c275e23a2865cef2b543b5c') in 0.012167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eye.mat
+  artifactKey: Guid(023452b84affa6f43a8feea0e1c55499) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Eye.mat using Guid(023452b84affa6f43a8feea0e1c55499) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae51e2c1ba806311d191071815463a48') in 0.010305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_1_head.mat
+  artifactKey: Guid(d76781e69b0e937439800ef45648aed7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_1_head.mat using Guid(d76781e69b0e937439800ef45648aed7) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b80dbd9b95b3bcfc573e6c4cf99731c') in 0.020304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/EyeBack.mat
+  artifactKey: Guid(b97b55ed446d8ed48acc18d42edf2de0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/EyeBack.mat using Guid(b97b55ed446d8ed48acc18d42edf2de0) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '725304500e2226a92a477bf5c10493ce') in 0.014297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Extras/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleTerrain/ExampleLaserCannonTerrain.asset
+  artifactKey: Guid(b8c692866a7f00f45b6dd836acf1bd4f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleTerrain/ExampleLaserCannonTerrain.asset using Guid(b8c692866a7f00f45b6dd836acf1bd4f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'afa012bfb5b5b8bae8935c07d5dac3f5') in 0.106383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Extras/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleScripts/VolumetricMultiLineBehavior.cs
+  artifactKey: Guid(337d0041a7dd7564e81c5f906c45230f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleScripts/VolumetricMultiLineBehavior.cs using Guid(337d0041a7dd7564e81c5f906c45230f) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d2fb4a61e65a24505c57d5c9a4b649d') in 0.018413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Extras/BodyGuards/AnimeGirls/Casual1/SourceFiles/Texture/Casual1.png
+  artifactKey: Guid(35f40a7d98d24a94f803784c817ac03a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/BodyGuards/AnimeGirls/Casual1/SourceFiles/Texture/Casual1.png using Guid(35f40a7d98d24a94f803784c817ac03a) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '54b3579dfbf604c072d870e9267ef90b') in 0.019214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Extras/TextMesh Pro/Low Poly Guns/Models/Guns/assault1/assault1.mat
+  artifactKey: Guid(c588de1bd0ae27543958b38850e54921) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Low Poly Guns/Models/Guns/assault1/assault1.mat using Guid(c588de1bd0ae27543958b38850e54921) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '43991f37eaa09db535a3ec73c0110698') in 0.017073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Hair_head.mat
+  artifactKey: Guid(903deec0895457d43a093ac8ee3e1d97) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Hair_head.mat using Guid(903deec0895457d43a093ac8ee3e1d97) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd21897469e29cd5c40e14e50461c8075') in 0.016068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Extras/TextMesh Pro/Low Poly Guns/Models/Guns/pistol3/pistol3_normal.png
+  artifactKey: Guid(9faebeb1b9df87d4d845ea9e89fa5a20) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Low Poly Guns/Models/Guns/pistol3/pistol3_normal.png using Guid(9faebeb1b9df87d4d845ea9e89fa5a20) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e9e3224a88eaaa467c188e0a8ef5de63') in 0.022047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_3_hair.mat
+  artifactKey: Guid(ac66396422b86cb4c92dad11a754d445) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_3_hair.mat using Guid(ac66396422b86cb4c92dad11a754d445) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fbc9060d4979557a71adb936c5334d84') in 0.026827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_4_head.mat
+  artifactKey: Guid(33f16960b5faae741a694a6018f8f68d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_4_head.mat using Guid(33f16960b5faae741a694a6018f8f68d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a31385d42f0fb3319f0e7222139794ff') in 0.029171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_underwear_1.png
+  artifactKey: Guid(68812920ec2796e4894cb2957e3d920c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_underwear_1.png using Guid(68812920ec2796e4894cb2957e3d920c) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d97901bddbbbf4e9996bed7c4c7b501') in 0.025329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyes.png
+  artifactKey: Guid(7320534fbd4110341a14a499362e9c46) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyes.png using Guid(7320534fbd4110341a14a499362e9c46) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d94fadc85614b68efa8d82343996113') in 0.013061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair2_hair.png
+  artifactKey: Guid(40b9f7d27e1400446b4974381efc1adb) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair2_hair.png using Guid(40b9f7d27e1400446b4974381efc1adb) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '19096abfba8ef36081fca8bf5bace5fa') in 0.023242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Mouth.png
+  artifactKey: Guid(afcebc1f40668274fbb842430ff85d43) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Mouth.png using Guid(afcebc1f40668274fbb842430ff85d43) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '71483456f80cef35b5d66175691176f2') in 0.021289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_2_head.mat
+  artifactKey: Guid(a5046b7e2e9bd10459e090170ab26f07) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_Hair_2_head.mat using Guid(a5046b7e2e9bd10459e090170ab26f07) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '501aa650d5335f2290e5b92322a972f0') in 0.016044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_EyeReflection.png
+  artifactKey: Guid(069ab9513901678428ac108cea95a855) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_EyeReflection.png using Guid(069ab9513901678428ac108cea95a855) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9bb7d66004686baa216b0383eba81986') in 0.021250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_underwear_2.mat
+  artifactKey: Guid(5869b0877c9aac0429ded83b64254243) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_underwear_2.mat using Guid(5869b0877c9aac0429ded83b64254243) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '60f2967e7cf19455f75aaed5f09f1dfb') in 0.035261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_underwear_3.mat
+  artifactKey: Guid(d2903b263d559f54794c1af4772a0e14) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Mat/Mat_underwear_3.mat using Guid(d2903b263d559f54794c1af4772a0e14) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c4c24e33dacfd471a31c40c9acde4a9e') in 0.011728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyelashes.png
+  artifactKey: Guid(437943a3b8830dc4d913be00a926114d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Eyelashes.png using Guid(437943a3b8830dc4d913be00a926114d) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '07ca6eafcebcb6300dfb778d28132f76') in 0.018792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair4_hair.png
+  artifactKey: Guid(d16115a9ba9d5814694445e6eb4a5e04) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Hair4_hair.png using Guid(d16115a9ba9d5814694445e6eb4a5e04) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a039c3c83361b5a622346eb594b8df73') in 0.028580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Extras/TextMesh Pro/Low Poly Guns/Models/Guns/assault3/assault3.mat
+  artifactKey: Guid(9a50065a1e4866b42946175d9a5f86b6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Low Poly Guns/Models/Guns/assault3/assault3.mat using Guid(9a50065a1e4866b42946175d9a5f86b6) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c8621631de749c25e973c914f90c31d') in 0.024474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Extras/StarterAssets/TutorialInfo/Scripts/Readme.cs
+  artifactKey: Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/StarterAssets/TutorialInfo/Scripts/Readme.cs using Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '499eb48507708bb3008b913dc9069e9d') in 0.014590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/zombie/Animations/Zombie@Z_Run_InPlace.FBX
+  artifactKey: Guid(79969b20b5ba62e499ee433a4dd38701) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/zombie/Animations/Zombie@Z_Run_InPlace.FBX using Guid(79969b20b5ba62e499ee433a4dd38701) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e5891cac578771454f82653d848ceaab') in 0.060830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Extras/StarterAssets/Environment/Art/Models/Ramp_Mesh.fbx
+  artifactKey: Guid(426a2785f8a940049aac2c246661cf09) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/StarterAssets/Environment/Art/Models/Ramp_Mesh.fbx using Guid(426a2785f8a940049aac2c246661cf09) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6cc6d0b38d4b1e8e5922a294af5524a2') in 0.025937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/zombie/Animations/Z_Walk_InPlace.anim
+  artifactKey: Guid(37e6af8636979e04086967e3bd667606) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/zombie/Animations/Z_Walk_InPlace.anim using Guid(37e6af8636979e04086967e3bd667606) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bfd011f13ee8936c49bbedfd81613f58') in 0.018758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/Demo files/Anim_Idle.fbx
+  artifactKey: Guid(6d53a488351422c4b9e379c87bd0c523) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/Demo files/Anim_Idle.fbx using Guid(6d53a488351422c4b9e379c87bd0c523) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e6ae51d86ed7bb53ec5f376d1170f8b') in 0.043341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Extras/StarterAssets/ThirdPersonController/Prefabs/PlayerCapsule.prefab
+  artifactKey: Guid(2553cec8fdb3eb643bbe9f2ec880c472) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/StarterAssets/ThirdPersonController/Prefabs/PlayerCapsule.prefab using Guid(2553cec8fdb3eb643bbe9f2ec880c472) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cfdd5b2f90e022d02edb71426293dbd2') in 0.034314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Extras/Travis Game Assets/Hit Impact Effects/Textures/HIE_Hit_04_FlashRays_01.tga
+  artifactKey: Guid(390bd72510bf2e644a513c853da84226) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/Travis Game Assets/Hit Impact Effects/Textures/HIE_Hit_04_FlashRays_01.tga using Guid(390bd72510bf2e644a513c853da84226) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b20c15556655e5ff111285da4b5ba007') in 0.014659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Extras/Travis Game Assets/Hit Impact Effects/Textures/HIE_Smoke_01.tga
+  artifactKey: Guid(1b3f115c49ed83946bcd8ac1227819cf) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/Travis Game Assets/Hit Impact Effects/Textures/HIE_Smoke_01.tga using Guid(1b3f115c49ed83946bcd8ac1227819cf) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a9d3befc97ff070d723323240cb1daab') in 0.027615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Extras/VolumetricLines/BuiltInRenderPipeline/Prefabs/LineStrip-LightSaber.prefab
+  artifactKey: Guid(158489636c6d50d4290c11b03aa00742) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/VolumetricLines/BuiltInRenderPipeline/Prefabs/LineStrip-LightSaber.prefab using Guid(158489636c6d50d4290c11b03aa00742) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '313cf23c89f7eb29488e7585cea0fd85') in 0.027287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/navmesh-components/Runtime/NavMeshLink.cs
+  artifactKey: Guid(4bd159dffb134dcdace5c3fd9814c5a3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/navmesh-components/Runtime/NavMeshLink.cs using Guid(4bd159dffb134dcdace5c3fd9814c5a3) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6bc35965c86716b3550e65ee8a1dc060') in 0.008381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Extras/StarterAssets/Environment/Prefabs/Structure_Prefab.prefab
+  artifactKey: Guid(79e624e6a8770a946afb866fd94b394b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/StarterAssets/Environment/Prefabs/Structure_Prefab.prefab using Guid(79e624e6a8770a946afb866fd94b394b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '26249383c3b42820274598e2fc68fe15') in 0.077666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Extras/BodyGuards/Meshes/SkelMesh_Bodyguard_04.fbx
+  artifactKey: Guid(69e0bf832ba8212478b45616cc569f75) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/BodyGuards/Meshes/SkelMesh_Bodyguard_04.fbx using Guid(69e0bf832ba8212478b45616cc569f75) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1cd769897b07716df2a3bb836b34bf9b') in 0.042367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Extras/Travis Game Assets/Hit Impact Effects/Demo Scene/Textures/HitImpactEffects_Floor.png
+  artifactKey: Guid(0c6177b2440338743a7447d732f82d49) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/Travis Game Assets/Hit Impact Effects/Demo Scene/Textures/HitImpactEffects_Floor.png using Guid(0c6177b2440338743a7447d732f82d49) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c93271973380b73e169188335258c76') in 0.018917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Face.png
+  artifactKey: Guid(c247e86b94f92384ab47aab540ea1248) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/BodyGuards/AnimeGirls/BaseCharacter/BaseCharacter/Sourcefiles/Tex/Tex_Face.png using Guid(c247e86b94f92384ab47aab540ea1248) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e667f582ed2d92d2de7024771f4cbdaa') in 0.016274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Extras/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+  artifactKey: Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Resources/LineBreaking Leading Characters.txt using Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7b13626683913bca88f9328a9dceb1cd') in 0.015951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Extras/TextMesh Pro/Low Poly Guns/Models/Guns/pistol3/pistol3_diffuse.png
+  artifactKey: Guid(1ec9fe2fb7e61d24dbd51506576aa912) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe)
+Start importing Assets/Extras/TextMesh Pro/Low Poly Guns/Models/Guns/pistol3/pistol3_diffuse.png using Guid(1ec9fe2fb7e61d24dbd51506576aa912) Importer(2089858483,c653a7c40615fbf8c82c05b109e42dfe) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8c2467eb487263a99690242aa6e31d69') in 0.038117 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 12.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (0.8 MB). Loaded Objects now: 7384.
+Memory consumption went from 144.0 MB to 143.2 MB.
+Total: 16.645200 ms (FindLiveObjects: 0.878900 ms CreateObjectMapping: 1.018900 ms MarkObjects: 14.186400 ms  DeleteObjects: 0.558600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

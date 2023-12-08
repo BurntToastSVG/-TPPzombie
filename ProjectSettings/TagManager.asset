@@ -6,11 +6,12 @@ TagManager:
   tags:
   - CinemachineTarget
   - laser_target
+  - projectile
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
   - 
